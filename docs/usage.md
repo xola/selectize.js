@@ -201,7 +201,7 @@ $(function() {
     	<td valign="top"><code>disableBackspaceDelete</code></td>
     	<td valign="top">If true, the backspace key will not delete the previous/selected item</td>
     	<td valign="top"><code>boolean</code></td>
-    	<td valign="top"><code>true</code></td>
+    	<td valign="top"><code>false</code></td>
     </tr>
 
 
