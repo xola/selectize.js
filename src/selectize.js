@@ -467,6 +467,10 @@ $.extend(Selectize.prototype, {
 		var isInput = e.target === this.$control_input[0];
 		var self = this;
 
+		if (self.settings.disableBackspaceDelete && e.keyCode === KEY_BACKSPACE) {
+			return;
+		}
+
 		if (self.isLocked) {
 			if (e.keyCode !== KEY_TAB) {
 				e.preventDefault();
